@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.clock-box {
+
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin-top: 100px;
+    background-color: black;
+    box-shadow: 5px 5px 60px black;
+    transition: 1s;
+
+}
+.clock-box:hover{
+    transition: 1s;
+    transform: perspective(200px) rotatey(20deg)  ;
+   
+}
+.cl {
+    color:whitesmoke;
+    border-radius: 100%;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  fantasy;
+    font-size: 40px;
+    transition: 1s;
+
+}
+.dt {
+    color:whitesmoke;
+    border-radius: 100%;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:  fantasy;
+    font-size: 30px;
+    transition: 1s;
+
+
+}
+ 
+.clock-box:hover .cl , .clock-box:hover .dt{
+
+    text-shadow: 2px 2px 2px red;
+    transition: 1s;
+}
+
